@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lobster&display=swap');
+
+body {
+	background-color: #181717;
+}
+
+/* Propiedades imagen */
+img {
+	height: auto;
+	background-size: cover;
+}
+
+header {
+	background-color: #f94144;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	height: 5rem;
+}
+
+h1 {
+	color: white;
+	border-bottom: solid 1px lightgrey;
+	/* font-family: "Dosis"; */
+}
+
+h2 {
+	color: #000000;
+}
+
+.contenido {
+	margin: 1rem auto;
+	padding: 5px;
+	width: 90%;
+	border-bottom: solid 1px lightgrey;
+	text-align: left;
+}
+
+.contenido, p {
+	/* font-style: italic; */
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.particion {
+	display: inline-block;
+	font-family: dosis;
+	width: 50%;
+	margin: 5rem 0 auto;
+	text-align: center;
+}
+.columna-izquierda {
+	margin-left: 40%;
+	width: 60%;
+}
+
+.columna-derecha {
+	background-color: #277da1;
+  	bottom: 0;
+  	left: 0;
+  	position: fixed;
+	overflow: hidden;
+  	top: 0;
+  	width: 40%;
+}
+
+
+
+
